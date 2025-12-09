@@ -196,3 +196,23 @@ function addMessage(text, sender) {
     box.appendChild(msg);
     box.scrollTop = box.scrollHeight;
 }
+git clone https://github.com/ttsh933-lab/Meta-ai.git
+cd Meta-ai
+
+python -m venv venv
+# Linux / Mac:
+source venv/bin/activate
+# Windows:
+# venv\Scripts\activate
+
+
+pip install --upgrade pip
+pip install -r requirements.txt
+
+python app.py
+# Ya agar chat script hai:
+# python chat.py
+
+
+# Default URL:
+# http://127.0.0.1:5000
