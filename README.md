@@ -210,7 +210,6 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 python app.py
-# Ya agar chat script hai:
 # python chat.py
 
 
