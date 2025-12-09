@@ -226,3 +226,30 @@ pip install -r requirements.txt
 python app.py
 
 npm start
+
+
+ https://github.com/ttsh933-lab/Meta-ai.git
+cd Meta-ai
+
+:: Step 2: Setup virtual environment
+python -m venv venv
+venv\Scripts\activate
+
+:: Step 3: Upgrade pip and install dependencies
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+
+:: Step 4: Start the backend server
+python app.py
+
+:: Step 5: Setup frontend (UI)
+cd frontend
+npm install
+npm start
+
+:: Step 6: Access UI
+:: Open browser on PC: http://127.0.0.1:3000
+:: For mobile access, use same Wi-Fi and PC's local IP, e.g., http://192.168.x.x:3000
+
+:: Optional: Build frontend for production
+npm run build
